@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trello tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="trello.png">
+</head>
+
+<body>
+    <div class="tudo">
+        <h1 class="titulo">minhas tarefas</h1>
+        <div class="colunas">
+
+        
+        <div class="coluna" id="a-fazer">
+            <h2 class="palavra">a fazer</h2>
+            <ul class="tarefas" id="tarefas-a-fazer"></ul>
+        </div>
+        <div class="coluna" id="feito">
+            <h2 class="palavra">feito</h2>
+            <ul class="tarefas" id="tarefas-feito"></ul>
+        </div>
+        <div class="coluna" id="Fazendo">
+            <h2 class="palavra">fazendo</h2>
+            <ul class="tarefas" id="tarefas-feito"></ul>
+        </div>
+    </div>
+        <form id="adicionar-tarefa">
+            <label for="nova-tarefa" class="palavra1">tarefa:</label>
+            <input type="text" id="nova-tarefa" name="nova-tarefa">
+            <button type="submit">adicionar</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

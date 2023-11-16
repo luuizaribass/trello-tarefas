@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/564x/a6/d3/c0/a6d3c0dc51dc91ddf1ac3850a3765326.jpg);
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    font-size: 50px;
+    text-align: center;
+    color:  #d100a7;
+}
+
+.tudo {
+    background-color: #ffffff00;
+    border: 2px solid #ffffff00;
+    border-radius: 10px;
+    width: 800px;
+    height: 100%; 
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.palavra {
+    font-size: 40px;
+    font-weight: 400px;
+    color:  rgb(209, 0, 167);
+    text-align: center;
+}
+
+.coluna {
+    justify-content:center;
+}
+
+.palavra1 {
+    font-size: 40px;
+    color:  rgb(209, 0, 167);
+}
+
+.colunas {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 550px;
+}
+
+li {
+    font-size: 30px;
+}
+
+button{
+    padding: 0px 8px;
+    border-radius: 12px;
+}
